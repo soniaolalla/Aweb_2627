@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Saludo</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <div class="caja">
+
+        <h1>Saludo al alumnado</h1>
+
+        <p>Introduce tus datos:</p>
+
+        <label for="nombre">Nombre:</label>
+
+        <input type="text" id="nombre">
+
+        <label for="genero">Soy:</label>
+
+        <select id="genero">
+            <option value="">Selecciona una opción</option>
+            <option value="chica">Chica</option>
+            <option value="chico">Chico</option>
+        </select>
+
+        <button onclick="saludar()">Saludar</button>
+
+        <h2 id="saludo"></h2>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
